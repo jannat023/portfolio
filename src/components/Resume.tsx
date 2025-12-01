@@ -9,7 +9,7 @@ export const Resume = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Syeda_Jannatul_Ferdous_Resume (1).pdf";
+    link.href = "/Syeda_Jannatul_Ferdous_Resume.pdf.";
     link.download = "Syeda_Jannatul_Ferdous_Resume.pdf";
     document.body.appendChild(link);
     link.click();
